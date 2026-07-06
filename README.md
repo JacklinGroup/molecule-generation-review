@@ -15,7 +15,6 @@ If you find missing resources, please open an issue, submit a pull request, or c
   - [Flow-based](#flow-based)
   - [Diffusion-based](#diffusion-based)
   - [Pocket conditioned](#pocket-conditioned)
-- [Baseline Models](#baseline-models)
 - [Platform and Toolkit](#platform-and-toolkit)
 
 ## Datasets
@@ -396,38 +395,6 @@ https://github.com/ninglab/Durian
   Hu Q, Sun C, He H, Xu J, Liu D, Zhang W, Shi S, Zhang K, Li H
 
   [paper](https://doi.org/10.1038/s41467-025-63245-0) | [code](None)
-
-## Baseline Models
-
-- [2018]**Junction Tree VAE**
-
-  Jin W, Barzilay R, Jaakkola T
-
-  [paper](https://proceedings.mlr.press/v80/jin18a.html) | [code](https://github.com/wengong-jin/icml18-jtnn)
-
-- [2020]**MoFlow**
-
-  Zang C, Wang F
-
-  [paper](https://doi.org/10.1145/3394486.3403104) | [code](https://github.com/calvin-zcx/moflow)
-
-- [2022]**EDM**
-
-  Hoogeboom E, Satorras V G, Vignac C, Welling M
-
-  [paper](https://proceedings.mlr.press/v162/hoogeboom22a.html) | [code](https://github.com/ehoogeboom/e3_diffusion_for_molecules)
-
-- [2022]**GeoDiff**
-
-  Xu M, Yu L, Song Y, Shi C, Ermon S, Tang J
-
-  [paper](https://openreview.net/forum?id=PzcvxEMzvQC) | [code](https://github.com/MinkaiXu/GeoDiff)
-
-- [2023]**TargetDiff**
-
-  Guan J, Qian W W, Peng X, Su Y, Peng J, Ma J
-
-  [paper](https://openreview.net/forum?id=) | [code](https://github.com/guanjq/targetdiff)
 
 ## Platform and Toolkit
 
