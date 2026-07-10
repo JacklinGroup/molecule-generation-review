@@ -15,7 +15,6 @@ If you find missing resources, please open an issue, submit a pull request, or c
   - [Flow-based](#flow-based)
   - [Diffusion-based](#diffusion-based)
   - [Pocket conditioned](#pocket-conditioned)
-- [Platform and Toolkit](#platform-and-toolkit)
 
 ## Datasets
 
@@ -525,15 +524,3 @@ https://github.com/ninglab/Durian
   Hu Q, Sun C, He H, Xu J, Liu D, Zhang W, Shi S, Zhang K, Li H
 
   [paper](https://doi.org/10.1038/s41467-025-63245-0) | [code](None)
-
-## Platform and Toolkit
-
-- [RDKit](https://www.rdkit.org/)
-- [OpenBabel](https://openbabel.org/)
-- [DeepChem](https://deepchem.io/)
-- [TorchDrug](https://torchdrug.ai/)
-- [DGL-LifeSci](https://github.com/awslabs/dgl-lifesci)
-- [PaddleHelix](https://github.com/PaddlePaddle/PaddleHelix)
-- [AutoDock Vina](https://vina.scripps.edu/)
-- [REINVENT](https://github.com/MolecularAI/REINVENT4)
-- [PoseBusters](https://github.com/maabuu/posebusters)
