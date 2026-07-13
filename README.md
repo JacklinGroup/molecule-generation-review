@@ -2,12 +2,13 @@
 
 This repository collects benchmarks, methods, code links, and toolkits related to **molecule generation for de novo drug design**, with emphasis on **pocket conditioned generation**. It serves as a companion resource for our survey paper.
 
-If you find missing resources, please open an issue, submit a pull request, or contact us via email: jack_lin@xtu.edu.cn
+If you find missing resources, please open an issue, submit a pull request, or contact us via email: jack_lin@xtu.edu.cn, siri.xu@foxmail.com
 
 ## Menu
 
 - [Datasets](#datasets)
 - [Evaluation Metrics](#evaluation-metrics)
+- [Pocket Models](#pocket-models)
 - [Representations](#representations)
 - [Methods](#methods)
   - [VAE-based](#vae-based)
@@ -64,6 +65,37 @@ https://github.com/ninglab/Durian
 
 ### Target-specific binding
 - Vina Score, Vina Min, QED, SA, Interaction Fingerprints (IFPs), Pose validity
+
+## Pocket Models
+
+Summary of performance of pocket-conditioned molecule generation models on CrossDocked2020.
+
+| Model | Year | Vina Score ↓ | Vina Min ↓ | Vina Dock ↓ | QED ↑ | SA ↑ | High Affinity ↑ | Diversity ↑ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TargetDiff | 2023 | -5.47 | -6.64 | -7.8 | 0.48 | 0.58 | 58.1% | 0.72 |
+| D3FG | 2023 | -- | -2.59 | -6.78 | 0.49 | 0.66 | -- | -- |
+| DecompDiff | 2024 | -5.67 | -7.04 | -8.39 | 0.45 | 0.61 | 64.4% | 0.68 |
+| IPDiff | 2024 | -6.42 | -7.45 | -8.57 | 0.52 | 0.61 | 69.5% | 0.74 |
+| TAGMol | 2024 | -7.02 | -7.95 | -8.59 | 0.55 | 0.56 | 69.8% | 0.69 |
+| ALiDiff | 2024 | -7.07 | -8.09 | -8.9 | 0.5 | 0.57 | 73.4% | 0.73 |
+| BindDM | 2024 | -5.92 | -- | -- | -- | -- | -- | -- |
+| DiffSBDD | 2024 | -- | -2.15 | -5.53 | 0.49 | 0.34 | -- | -- |
+| VoxBind | 2024 | -6.16 | -6.82 | -7.68 | 0.54 | 0.65 | -- | -- |
+| PMDM | 2024 | -4.866 | -6.173 | -7.284 | 0.508 | 0.609 | -- | -- |
+| GCDM | 2024 | -2.103 | -3.544 | -5.221 | 0.476 | 0.684 | -- | -- |
+| KGDiff | 2024 | -8.04 | -8.78 | -9.43 | 0.51 | 0.54 | 79.2% | -- |
+| FlowSBDD | 2024 | -3.62 | -6.72 | -8.5 | 0.47 | 0.51 | 63.4% | 0.75 |
+| MolCRAFT | 2024 | -6.59 | -7.27 | -7.92 | 0.5 | 0.69 | 59.1% | 0.73 |
+| PocketFlow | 2024 | -- | -- | -- | 0.507 | -- | -- | 0.871 |
+| FlexSBDD | 2024 | -6.64 | -8.27 | -9.12 | 0.58 | 0.69 | 78.50% | 0.70 |
+| DiffGui | 2025 | -5.895 | -6.886 | -7.896 | 0.498 | 0.653 | -- | -- |
+| SGEDiff | 2025 | -5.64 | -- | -- | -- | -- | -- | -- |
+| MSIDiff | 2025 | -6.36 | -- | -- | -- | -- | -- | -- |
+| BoKDiff | 2025 | -- | -- | -8.58 | >0.60 | >0.75 | -- | -- |
+| PAFlow | 2025 | -8.31 | -8.79 | -9.46 | 0.49 | 0.57 | 80.8% | 0.71 |
+| MolFORM | 2025 | -5.42 | -6.42 | -7.5 | 0.48 | 0.6 | -- | 0.78 |
+
+> Vina Score, Vina Min, and Vina Dock are average docking-related scores, with lower values indicating better predicted binding. QED, normalized SA, High Affinity, and Diversity are average drug-likeness, synthetic accessibility, high-affinity ratio, and diversity metrics, respectively, with higher values indicating better performance. Unless otherwise specified, SA refers to the normalized 0–1 score; raw 1–10 SA scores were not directly mixed. `--` indicates not reported.
 
 ## Representations
 
