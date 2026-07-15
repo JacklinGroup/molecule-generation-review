@@ -248,14 +248,6 @@ https://github.com/molecularsets/moses
 
   [paper](None) | [code](https://github.com/tang7777777/MIR)
 
-- [2025]**TopMT-GAN: a 3D topology-driven generative model for structure-based ligand design**
-
-  Wang S, Lin T, Peng T, Xing E, Chen S, Kara L B, Cheng X
-
-  Input: 3D Struct.
-
-  [paper](https://doi.org/10.1039/D4SC05211K) | [code](https://github.com/aeghnsw/TopMT)
-
 ### Flow-based
 
 - [2020]**GraphAF: a flow-based autoregressive model for molecular graph generation**
