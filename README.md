@@ -444,13 +444,21 @@ https://github.com/molecularsets/moses
 
   [paper](None) | [code](https://github.com/facebookresearch/all-atom-diffusion-transformer)
 
-- [2025]**MDRL: molecular diffusion with reinforcement learning**
+- [2025]**DiffMC-Gen: A Dual Denoising Diffusion Model for Multi-Conditional Molecular Generation**
 
-  Yuan H, et al.
+  Yang Y, Gu S, Liu B, Gong X, Lu R, Qiu J, Yao X, Liu H
+
+  Input: 2D Graph, 3D Struct.
+
+  [paper](https://doi.org/10.1002/advs.202417726) | [code](None)
+
+- [2025]**MDRL: A 3D generation framework using diffusion model and reinforcement learning to generate multi-target compounds with desired properties**
+
+  Yuan Y, Pan X, Li X, Zhang R, Su W
 
   Input: 3D Struct.
 
-  [paper](None) | [code](https://github.com/Xinol1024/MDRL)
+  [paper](https://doi.org/10.1186/s13321-025-01035-y) | [code](https://github.com/Xinol1024/MDRL)
 
 - [2026]**TED: bridging 2D topology and 3D geometry via transformer-enhanced diffusion**
 
