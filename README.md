@@ -462,31 +462,134 @@ https://github.com/molecularsets/moses
 
 ### Pocket conditioned
 
-Summary of performance of pocket-conditioned molecule generation models on CrossDocked2020.
+- [2023]**TargetDiff: 3D equivariant diffusion for target-aware molecule generation and affinity prediction**
 
-| Model | Year | Vina Score ↓ | Vina Min ↓ | Vina Dock ↓ | QED ↑ | SA ↑ | High Affinity ↑ | Diversity ↑ |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TargetDiff | 2023 | -5.47 | -6.64 | -7.80 | 0.48 | 0.58 | 58.10% | 0.72 |
-| D3FG | 2023 | -- | -2.59 | -6.78 | 0.49 | 0.66 | -- | -- |
-| DecompDiff | 2024 | -5.67 | -7.04 | -8.39 | 0.45 | 0.61 | 64.40% | 0.68 |
-| IPDiff | 2024 | -6.42 | -7.45 | -8.57 | 0.52 | 0.61 | 69.50% | 0.74 |
-| TAGMol | 2024 | -7.02 | -7.95 | -8.59 | 0.55 | 0.56 | 69.80% | 0.69 |
-| ALiDiff | 2024 | -7.07 | -8.09 | -8.90 | 0.50 | 0.57 | 73.40% | 0.73 |
-| BindDM | 2024 | -5.92 | -- | -- | -- | -- | -- | -- |
-| DiffSBDD | 2024 | -- | -2.15 | -5.53 | 0.49 | 0.34 | -- | -- |
-| VoxBind | 2024 | -6.16 | -6.82 | -7.68 | 0.54 | 0.65 | -- | -- |
-| PMDM | 2024 | -4.87 | -6.17 | -7.28 | 0.51 | 0.61 | -- | -- |
-| GCDM | 2024 | -2.10 | -3.54 | -5.22 | 0.48 | 0.68 | -- | -- |
-| KGDiff | 2024 | <u>-8.04</u> | <u>-8.78</u> | <u>-9.43</u> | 0.51 | 0.54 | <u>79.20%</u> | -- |
-| FlowSBDD | 2024 | -3.62 | -6.72 | -8.50 | 0.47 | 0.51 | 63.40% | 0.75 |
-| MolCRAFT | 2024 | -6.59 | -7.27 | -7.92 | 0.50 | <u>0.69</u> | 59.10% | 0.73 |
-| PocketFlow | 2024 | -- | -- | -- | 0.51 | -- | -- | **0.87** |
-| FlexSBDD | 2024 | -6.64 | -8.27 | -9.12 | <u>0.58</u> | <u>0.69</u> | 78.50% | 0.70 |
-| DiffGui | 2025 | -5.90 | -6.89 | -7.90 | 0.50 | 0.65 | -- | -- |
-| SGEDiff | 2025 | -5.64 | -- | -- | -- | -- | -- | -- |
-| MSIDiff | 2025 | -6.36 | -- | -- | -- | -- | -- | -- |
-| BoKDiff | 2025 | -- | -- | -8.58 | **>0.60** | **>0.75** | -- | -- |
-| PAFlow | 2025 | **-8.31** | **-8.79** | **-9.46** | 0.49 | 0.57 | **80.80%** | 0.71 |
-| MolFORM | 2025 | -5.42 | -6.42 | -7.50 | 0.48 | 0.60 | -- | <u>0.78</u> |
+  Guan J, Qian W W, Peng X, Su Y, Peng J, Ma J
 
-> Vina Score, Vina Min, and Vina Dock are average docking-related scores, with lower values indicating better predicted binding. QED, normalized SA, High Affinity, and Diversity are average drug-likeness, synthetic accessibility, high-affinity ratio, and diversity metrics, respectively, with higher values indicating better performance. Unless otherwise specified, SA refers to the normalized 0–1 score; raw 1–10 SA scores were not directly mixed. `--` indicates not reported. Bold denotes the best result; underline denotes the second best.
+  [paper](https://openreview.net/forum?id=2f1sMgtGr5) | [code](https://github.com/guanjq/targetdiff)
+
+- [2023]**D3FG: Functional-Group-Based Diffusion for Pocket-Specific Molecule Generation and Elaboration**
+
+  Lin H, Huang Y, Zhang O, Wu L, Li S, Chen Z, Li S Z
+
+  [paper](https://arxiv.org/abs/2306.13769) | [code](https://github.com/BIRD-TAO/D3FG)
+
+- [2024]**DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design**
+
+  Guan J, et al.
+
+  [paper](https://proceedings.mlr.press/v202/guan23a.html) | [code](https://github.com/bytedance/DecompDiff)
+
+- [2024]**IPDiff: protein-ligand interaction prior for binding-aware 3D molecule diffusion**
+
+  Huang Z, Yang L, Zhou X, et al.
+
+  [paper](None) | [code](https://github.com/YangLing0818/IPDiff)
+
+- [2024]**TAGMol**
+
+  Dorna V, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**ALiDiff: Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization**
+
+  Gu S, et al.
+
+  [paper](https://arxiv.org/abs/2407.01648) | [code](https://github.com/MinkaiXu/AliDiff)
+
+- [2024]**BindDM: Binding-Adaptive Diffusion Models for Structure-Based Drug Design**
+
+  Huang Z, Yang L, Zhang Z, Zhou X, Bao Y, Zheng X, Yang Y, Wang Y, Yang W
+
+  [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29162) | [code](https://github.com/YangLing0818/BindDM)
+
+- [2024]**DiffSBDD: structure-based drug design with equivariant diffusion models**
+
+  Schneuing A, Harris C, Du Y, et al.
+
+  [paper](https://doi.org/10.1038/s43588-024-00737-x) | [code](https://github.com/arneschneuing/DiffSBDD)
+
+- [2024]**VoxBind**
+
+  Pinheiro P O, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**PMDM**
+
+  Huang L, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**GCDM**
+
+  Morehead A, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**KGDiff**
+
+  Qian H, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**FlowSBDD**
+
+  Zhang et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**MolCRAFT: Structure-Based Drug Design in Continuous Parameter Space**
+
+  Qu Y, Qiu K, Song Y, Gong J, Han J, Zheng M, Zhou H, Ma W-Y
+
+  [paper](https://arxiv.org/abs/2404.12141) | [code](https://github.com/AlgoMole/MolCRAFT)
+
+- [2024]**PocketFlow**
+
+  Jiang Y, et al.
+
+  [paper](None) | [code](None)
+
+- [2024]**FlexSBDD: Structure-Based Drug Design with Flexible Protein Modeling**
+
+  Zhang Z, et al.
+
+  [paper](None) | [code](https://github.com/zaixizhang/FlexSBDD)
+
+- [2025]**DiffGui**
+
+  Hu et al.
+
+  [paper](None) | [code](None)
+
+- [2025]**SGEDiff**
+
+  Gong et al.
+
+  [paper](None) | [code](None)
+
+- [2025]**MSIDiff**
+
+  Zhang et al.
+
+  [paper](None) | [code](None)
+
+- [2025]**BoKDiff**
+
+  Yalabadi et al.
+
+  [paper](None) | [code](None)
+
+- [2025]**PAFlow: Prior-Guided Flow Matching for Target-Aware Molecule Design with Learnable Atom Number**
+
+  Zhou J, Qian H, Tu S, Xu L
+
+  [paper](https://arxiv.org/abs/2509.01486) | [code](None)
+
+- [2025]**MolFORM: Multi-modal Flow Matching for Structure-Based Drug Design**
+
+  Huang et al.
+
+  [paper](https://arxiv.org/abs/2507.05503) | [code](https://github.com/daiheng-zhang/SBDD-MolFORM)
