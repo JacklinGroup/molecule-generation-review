@@ -388,14 +388,6 @@ https://github.com/molecularsets/moses
 
   [paper](https://proceedings.mlr.press/v231/hua24a.html) | [code](https://github.com/WillHua127/mudiff)
 
-- [2023]**TargetDiff: 3D equivariant diffusion for target-aware molecule generation and affinity prediction**
-
-  Guan J, Qian W W, Peng X, Su Y, Peng J, Ma J
-
-  Input: 3D Struct.
-
-  [paper](https://openreview.net/forum?id=2f1sMgtGr5) | [code](https://github.com/guanjq/targetdiff)
-
 - [2023]**VoxMol: 3D molecule generation by denoising voxel grids**
 
   Pinheiro P O, Rackers J, Kleinhenz J, et al.
