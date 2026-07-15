@@ -52,9 +52,6 @@ https://go.drugbank.com/
 **MOSES**
 https://github.com/molecularsets/moses
 
-**Durian**
-https://github.com/ninglab/Durian
-
 ## Evaluation Metrics
 
 ### Ligand-level
