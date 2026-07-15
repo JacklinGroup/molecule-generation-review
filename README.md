@@ -314,6 +314,14 @@ https://github.com/molecularsets/moses
 
   [paper](https://doi.org/10.48550/arXiv.2406.07266) | [code](https://github.com/rssrwn/semla-flow)
 
+- [2025]**VNFlow: integration of variational autoencoders and normalizing flows for novel molecular design**
+
+  Hostas J, Ghaemi M S, Hu H, Lin J, Hu A, Ooi H K
+
+  Input: 1D Seq.
+
+  [paper](https://doi.org/10.1186/s13321-025-01104-2) | [code](https://github.com/nrc-cnrc/VNFlow)
+
 - [2026]**Megalodon-flow: modular flow matching for 3D molecular generation**
 
   Reidenbach D, et al.
