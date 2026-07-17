@@ -232,13 +232,13 @@ https://github.com/molecularsets/moses
 
   [paper](https://doi.org/10.24963/ijcai.2025/0694) | [code](https://github.com/tang7777777/InstGAN)
 
-- [2025]**Range-GAN: range-aware GAN for molecular graph generation**
+- [2025]**TopMT-GAN: a 3D topology-driven generative model for efficient and diverse structure-based ligand design**
 
-  Nobari A, Fazli M, Ahmadi M
+  Wang S, Lin T, Peng T, Xing E, Chen S, Kara L B, Cheng X
 
-  Input: 2D Graph
+  Input: 3D Struct.
 
-  [paper](None) | [code](None)
+  [paper](https://doi.org/10.1039/d4sc05211k) | [code](https://github.com/aeghnnsw/TopMT)
 
 - [2025]**RL-MolGAN: reinforcement learning enhanced MolGAN for molecular generation**
 
